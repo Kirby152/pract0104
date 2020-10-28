@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+
+
+        android:title="Приколюхи">
+        <menu>
+            <item
+                android:id="@+id/normal"
+                app:showAsAction="never"
+                android:title="Нормальный"/>
+            <item
+                android:id="@+id/emboss"
+                app:showAsAction="never"
+                android:title="С тенью"/>
+            <item
+                android:id="@+id/blur"
+                app:showAsAction="never"
+                android:title="Размытие"/>
+        </menu>
+    </item>
+    <item
+        android:title="Цвета">
+        <menu>
+            <item
+                android:id="@+id/color_r"
+                android:title="Красный"/>
+            <item
+                android:id="@+id/color_g"
+                android:title="Зеленый"/>
+            <item
+                android:id="@+id/color_b"
+                android:title="Голубой"/>
+            <item
+                android:id="@+id/color_bl"
+                android:title="Черный"/>
+        </menu>
+    </item>
+    <item
+        android:title="Размер кисти">
+        <menu>
+            <item
+                android:id="@+id/size_n"
+                android:title="Средний"/>
+            <item
+                android:id="@+id/size_s"
+                android:title="Мелкий"/>
+            <item
+                android:id="@+id/size_b"
+                android:title="НеСредний"/>
+            <item
+                android:id="@+id/size_z"
+                android:title="Здоровый"/>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/clear"
+        app:showAsAction="never"
+        android:title="Очистить"/>
+</menu>
+
